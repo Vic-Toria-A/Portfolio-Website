@@ -1,0 +1,61 @@
+header {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: larger;
+}
+
+.navigation {
+  display: flex;
+  gap: 35px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  font-size: medium;
+}
+
+main {
+  padding: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.text-div {
+  width: 50%;
+}
+
+.image-div {
+  width: 50%;
+  text-align: right;
+}
+
+.image-div img {
+  border-radius: 20px;
+  width: 450px; /* You can adjust this value to your liking */
+  height:auto; 
+  max-width: 100%; 
+}
+
+/* Basic styling for sections */
+section {
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+
+section:nth-of-type(odd) {
+  background-color: #f4f4f4;
+}
